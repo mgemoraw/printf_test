@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
 *_strlen - returns length of string
 * @fmt: input character array
@@ -17,7 +16,9 @@ unsigned int _strlen(char *fmt)
 
 	return (len);
 }
-
+/**
+ * _fmtlen - description about fmtlen
+ */
 int _fmtlen(const char *fmt)
 {
 	int len = 0;
